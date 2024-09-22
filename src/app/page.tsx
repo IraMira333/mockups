@@ -1,3 +1,3 @@
 export default function Home() {
-    return <div>MOCKUPS</div>;
+    return <div className="text-center">MOCKUPS</div>;
 }

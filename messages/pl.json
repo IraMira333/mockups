@@ -1,0 +1,12 @@
+{
+    "Home": {
+        "title": "Wszystko, czego potrzebujesz, aby szybko i dokładnie zbadać dowolną część planety",
+        "description": ""
+    },
+    "Menu": {
+        "about": "about us",
+        "services": "services",
+        "toolkits": "toolkits",
+        "showreel": "showreel"
+    }
+}

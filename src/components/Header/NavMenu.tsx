@@ -21,7 +21,10 @@ export const NavMenu = ({
         <ul className={`${className}`}>
             {menu.map(({ name, path }, index) => {
                 return (
-                    <li key={index} className="tab:w-[84px]">
+                    <li
+                        key={index}
+                        className="text-white-100 tab:w-[84px] hover:text-accent hover:underline active:text-accent active:underline font-genos"
+                    >
                         <Link
                             href={path}
                             className=" uppercase"

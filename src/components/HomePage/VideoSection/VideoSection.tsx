@@ -2,7 +2,10 @@ import { Section } from "@/shared/Section";
 
 export const VideoSection = () => {
     return (
-        <Section id="showreel" className="pt-10 pb-[80px]">
+        <Section
+            id="showreel"
+            className="pt-10 pb-[80px] tab:pb-10 pc:flex pc:justify-center"
+        >
             <video
                 width="1320"
                 height="742.5"

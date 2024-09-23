@@ -100,25 +100,25 @@ const config: Config = {
                 },
             ],
 
-            "5xlS": [
+            "5xl": [
                 "36px",
                 {
                     lineHeight: "43px",
-                    fontWeight: "600",
+                    fontWeight: "500",
                 },
             ],
-            "6xlS": [
+            "6xl": [
                 "48px",
                 {
                     lineHeight: "54px",
-                    fontWeight: "600",
+                    fontWeight: "500",
                 },
             ],
-            "7xlS": [
+            "7xl": [
                 "64px",
                 {
                     lineHeight: "72px",
-                    fontWeight: "600",
+                    fontWeight: "500",
                 },
             ],
         },

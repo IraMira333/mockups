@@ -8,7 +8,7 @@ export const Footer = () => {
 
     return (
         <footer className="border-t border-white-100 p-10 pc:p-[100px] ">
-            <ul className="flex flex-col gap-4 mb-10 tab:flex-row pc:w-[705px] pc:mx-auto">
+            <ul className="flex flex-col gap-4 mb-10 tab:flex-row max-w-[270px] tab:max-w-[705px] mx-auto">
                 <li className="flex gap-3 items-center justify-left tab:w-[33%] hover:text-accent active:text-accent transition-all duration-[250ms] ease-[cubic-bezier(0.4,0,0.2,1)]">
                     <div className="w-6 h-6 flex justify-center items-center">
                         <IconPhone className="" />
@@ -25,7 +25,7 @@ export const Footer = () => {
                         info@mapium.com.pl
                     </a>
                 </li>
-                <li className="flex gap-3 items-center justify-left tab:w-[34%] hover:text-accent active:text-accent transition-all duration-[250ms] ease-[cubic-bezier(0.4,0,0.2,1)]">
+                <li className="flex gap-3 items-center justify-left max-w-[270px] tab:w-[34%] hover:text-accent active:text-accent transition-all duration-[250ms] ease-[cubic-bezier(0.4,0,0.2,1)]">
                     <div className="w-6 h-6 flex justify-center items-end">
                         <IconPin className="" />
                     </div>

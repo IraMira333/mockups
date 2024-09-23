@@ -1,7 +1,7 @@
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 
-export const AerialMapping = () => {
+export const AerialMappingPC = () => {
     const t = useTranslations("Services");
     const AERIALMAPPINGLIST = [
         `${t("aerialmappingItem1")}`,
@@ -18,11 +18,11 @@ export const AerialMapping = () => {
     ];
 
     return (
-        <div className="mb-10 tab:border-b tab:border-white-100 tab:pb-10 pc:pb-[60px] tab:mb-[60px]">
+        <div className="mb-10 tab:border-b tab:border-white-100 tab:pb-10 tab:mb-[60px]">
             <div className="tab:flex tab:gap-5">
                 <div className="tab:w-[49.4%] pc:w-[24%] tab:flex tab:flex-col tab:justify-between">
                     <div>
-                        <h3 className="text-white-100 tab:text-5xl font-genos text-3xl  mb-5">
+                        <h3 className="text-white-100 tab:text-5xl font-genos text-3xl mb-5 pc:mb-[102px]">
                             {t("aerialmappingTitle")}
                         </h3>
                         <p className="font-genos text-lgS tab:text-xlS mb-[10px]">
@@ -46,11 +46,9 @@ export const AerialMapping = () => {
                         className="hidden w-full tab:block pc:hidden"
                     />
                 </div>
-                <div className="tab:w-[47.6%] pc:w-[75%] pc:flex pc:gap-5">
-                    <div className="pc:w-[43.5%] pc:flex pc:flex-col pc:justify-between">
-                        <p className="mb-4 pc:w-[96%]">
-                            {t("aerialmappingP1")}
-                        </p>
+                <div className="tab:w-[47.6%] pc:w-[75%] pc:flex">
+                    <div>
+                        <p className="mb-4">{t("aerialmappingP1")}</p>
                         <Image
                             src="/servicesImage1.png"
                             alt="servicesImage1"
@@ -59,7 +57,7 @@ export const AerialMapping = () => {
                             className="hidden w-full pc:block"
                         />
                     </div>
-                    <div className="pc:w-[54.5%]">
+                    <div>
                         <p className="mb-4">{t("aerialmappingP2")}</p>
                         <p className="mb-6">
                             {t.rich("aerialmappingP3", {

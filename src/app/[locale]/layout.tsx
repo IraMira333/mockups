@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { NextIntlClientProvider, useMessages } from "next-intl";
 import { Header } from "@/components/Header/Header";
+import { Footer } from "@/components/Footer/Footer";
 
 const genos = localFont({
     src: [
@@ -63,6 +64,7 @@ export default function RootLayout({
                 >
                     <Header />
                     <main>{children}</main>
+                    <Footer />
                 </body>
             </NextIntlClientProvider>
         </html>

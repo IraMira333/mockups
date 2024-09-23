@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import { NextIntlClientProvider, useMessages } from "next-intl";
+import { Header } from "@/components/Header/Header";
 
 const genos = localFont({
     src: [
@@ -60,6 +61,7 @@ export default function RootLayout({
                 <body
                     className={`${dmSans.variable} ${genos.variable} antialiased`}
                 >
+                    <Header />
                     <main>{children}</main>
                 </body>
             </NextIntlClientProvider>

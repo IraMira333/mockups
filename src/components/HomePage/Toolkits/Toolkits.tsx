@@ -1,4 +1,5 @@
 import { Section } from "@/shared/Section";
+import { WaveAnimation } from "@/shared/WaveAnimation";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 
@@ -12,8 +13,8 @@ export const Toolkits = () => {
                 <h2 className="tab:w-[50%]">{t("toolkitsTitle")}</h2>
             </div>
             <div className="pc:flex pc:gap-5 pc:justify-center">
-                <div className="border border-white-40 px-2 mb-4 pc:mb-5 tab:w-[538px] tab:h-[300px] tab:flex tab:p-5 pc:w-[41%]">
-                    <div>
+                <WaveAnimation className="border border-white-40  px-2  pc:mb-5 tab:w-[538px] tab:h-[300px] pc:w-[41%]">
+                    <div className="relative z-10">
                         <h3 className="text-white-100 font-genos text-3xl uppercase mb-4 tab:text-5xl">
                             {t("beetleTitle")}
                         </h3>
@@ -24,10 +25,11 @@ export const Toolkits = () => {
                         alt="beetle"
                         width={263}
                         height={235}
+                        className="relative z-10"
                     />
-                </div>
-                <div className="border border-white-40 px-2 mb-4 pc:mb-5 tab:w-[688px] tab:h-[327px] pc:h-[300px] tab:flex tab:p-5 pc:w-[57%]">
-                    <div>
+                </WaveAnimation>
+                <WaveAnimation className="border border-white-40  px-2  pc:mb-5 tab:w-[688px] tab:h-[327px] pc:h-[300px] pc:w-[57%]">
+                    <div className="relative z-10">
                         <h3 className="text-white-100 font-genos text-3xl uppercase mb-4 tab:text-5xl">
                             {t("flirtTitle")}
                         </h3>
@@ -43,13 +45,13 @@ export const Toolkits = () => {
                         alt="flirtCetus"
                         width={218}
                         height={232}
-                        className="mt-[-50px] mx-auto"
+                        className="mt-[-50px] mx-auto relative z-10"
                     />
-                </div>
+                </WaveAnimation>
             </div>
             <div className="pc:flex pc:gap-5 pc:justify-center">
-                <div className="border border-white-40  mb-4 pc:mb-0 tab:w-[650px] tab:h-[300px] tab:flex tab:flex-row-reverse tab:p-5 tab:gap-10 pc:w-[49%]">
-                    <div className="px-2">
+                <WaveAnimation className="border border-white-40 px-0 pc:mb-0 tab:w-[650px] tab:h-[300px] tab:flex-row-reverse tab:gap-10 pc:w-[49%]">
+                    <div className="px-2 relative z-10">
                         <h3 className="text-white-100 font-genos text-3xl uppercase mb-4 tab:text-5xl">
                             {t("yellowScanTitle")}
                         </h3>
@@ -60,11 +62,11 @@ export const Toolkits = () => {
                         alt="Yellow Scan"
                         width={315}
                         height={300}
-                        className="tab:w-[48.5%]"
+                        className="tab:w-[48.5%] relative z-10"
                     />
-                </div>
-                <div className="border border-white-40 px-2 tab:w-[647px] tab:h-[300px] tab:flex tab:flex-row-reverse tab:p-5 tab:gap-10 pc:w-[49%]">
-                    <div>
+                </WaveAnimation>
+                <WaveAnimation className="border border-white-40  px-2  mb-0 tab:w-[647px] tab:h-[300px] tab:flex-row-reverse tab:gap-10 pc:w-[49%]">
+                    <div className="relative z-10">
                         <h3 className="text-white-100 font-genos text-3xl uppercase mb-4 tab:text-5xl">
                             {t("sonyTitle")}
                         </h3>
@@ -75,9 +77,9 @@ export const Toolkits = () => {
                         alt="Sony"
                         width={315}
                         height={300}
-                        className="w-[203px] h-auto mx-auto tab:w-[48.5%]"
+                        className="w-[203px] h-auto mx-auto tab:w-[48.5%] relative z-10"
                     />
-                </div>
+                </WaveAnimation>
             </div>
         </Section>
     );

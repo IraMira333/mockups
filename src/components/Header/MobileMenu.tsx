@@ -23,7 +23,7 @@ export const MobileMenu = ({
                 className="flex flex-col gap-5 text-center my-[48px] "
                 onClick={() => setIsHeaderMenuOpened(false)}
             />
-            <IconLogo className="mx-auto w-[288px] text-white-20" />
+            <IconLogo className="mx-auto w-[288px] text-white-20 " />
         </nav>
     );
 };

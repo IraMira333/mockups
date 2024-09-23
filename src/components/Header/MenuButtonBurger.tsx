@@ -7,7 +7,7 @@ const firstLineTransformStyles =
     "rotate-[45deg] top-[-2.6px] left-[3px] w-[70%]";
 const secondLineBaseStyles = "top-[6.83px] ";
 const secondLineTransformStyles =
-    "rotate-[-45deg] origin-center top-[-3px] right-[3px] w-[116%]";
+    "rotate-[-45deg] origin-center top-[-3px] right-[3px] w-[122%]";
 const thirdLineBaseStyles = "top-[13.67px] ";
 const thirdLineTransformStyles = "rotate-45 top-[15.2px] w-[70%] right-[4px]";
 

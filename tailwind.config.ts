@@ -139,6 +139,9 @@ const config: Config = {
             width: {
                 aboutSmallImage: "calc(50% - 4px)",
             },
+            height: {
+                "80": "calc(100vh - 80px)",
+            },
         },
     },
     plugins: [

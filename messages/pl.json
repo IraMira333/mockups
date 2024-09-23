@@ -1,12 +1,26 @@
 {
     "Home": {
         "title": "Wszystko, czego potrzebujesz, aby szybko i dokładnie zbadać dowolną część planety",
-        "description": ""
+        "description": "",
+        "heroPicture": "Map in grey color"
     },
     "Menu": {
         "about": "about us",
         "services": "services",
         "toolkits": "toolkits",
         "showreel": "showreel"
+    },
+    "AboutUs": {
+        "title": "About us",
+        "aboutUsP1": "{mapium} provides services in aerial surveying, geodesy and cartography worldwide. The company's experience includes hundreds of projects covering tens of thousands sq. km in various regions of the world.",
+        "mapium": "Mapium",
+        "aboutUsP2": "The combination of modern technologies of survey from air, space and on ground makes it possible to complete projects of any complexity in the shortest possible time and with high accuracy. {mapium} has its own fixed wing and multicopter UAVs manufactured by {abrisAero}, which are known for their high efficiency and reliability. The toolkit of {mapium} includes {sony} aerial cameras, {phaseone} industrial aerial cameras, {yellowscan} laser scanners, {novatel} onboard and ground {gnss} systems.",
+        "abrisAero": "abris aero",
+        "sony": "sony",
+        "phaseone": "phaseone",
+        "yellowscan": "yellowscan",
+        "novatel": "novatel",
+        "gnss": "gnss",
+        "aboutUsP3": "Our research teams consist of certified pilots, surveyors, photogrammetrists, cartographers, architects and lawyers. They are united by professionalism, vast experience, love for travel and the spirit of adventurousness."
     }
 }

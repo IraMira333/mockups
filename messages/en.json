@@ -57,5 +57,9 @@
         "yellowScanText": "Modern laser scanners enable the rapid and efficient capture of precise DTM/DSM models for terrain, buildings, structures, as well as engineering and infrastructure facilities.",
         "sonyTitle": "SONY",
         "sonyText": "Aerial cameras deliver images with a resolution of 0.5 cm GSD, and their interchangeable lenses offer flexibility in adjusting flight altitude based on shooting conditions."
+    },
+    "Footer": {
+        "address": "Mogilska Street, 40, a. 26, Krakow, 31-546, Poland",
+        "copyright": "MAPIUM. All rights reserved"
     }
 }

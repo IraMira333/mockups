@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import plugin from "tailwindcss/plugin";
 
 const config: Config = {
     content: [
@@ -79,11 +80,16 @@ const config: Config = {
                     fontWeight: "600",
                 },
             ],
-            "3xlS": [
+            "3xl": [
                 "28px",
                 {
                     lineHeight: "34px",
-                    fontWeight: "600",
+                },
+            ],
+            "4xl": [
+                "32px",
+                {
+                    lineHeight: "36px",
                 },
             ],
             "4xlS": [
@@ -130,8 +136,19 @@ const config: Config = {
                 accent: "#B0DB82",
                 navy: "#0D3747",
             },
+            width: {
+                aboutSmallImage: "calc(50% - 4px)",
+            },
         },
     },
-    plugins: [],
+    plugins: [
+        plugin(function ({ addUtilities }) {
+            addUtilities({
+                ".transition-height": {
+                    transition: "height 0.5s ease",
+                },
+            });
+        }),
+    ],
 };
 export default config;

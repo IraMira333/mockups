@@ -22,7 +22,7 @@ export const Navbar = () => {
     }, [isHeaderMenuOpened]);
     return (
         <>
-            <NavMenu className="hidden tab:flex gap-3 tab:gap-4 pc:gap-5" />
+            <NavMenu className="hidden tab:flex tab:gap-1 pc:gap-5 tab:mr-3 pc:mr-8" />
             <LanguageSwitcher />
             <div className="tab:hidden ml-4">
                 <MenuButtonBurger

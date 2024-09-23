@@ -6,7 +6,7 @@ export const Toolkits = () => {
     const t = useTranslations("Services");
 
     return (
-        <Section id="services" className="py-10">
+        <Section id="toolkits" className="py-10">
             <div className="flex justify-between font-genos text-xl uppercase h-9 border-b border-b-white-100 mb-[28px]">
                 <p>03</p>
                 <h2 className="">{t("toolkitsTitle")}</h2>

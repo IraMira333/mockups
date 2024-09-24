@@ -1,18 +1,21 @@
 {
+    "MetaData": {
+        "title": "MAPIUM - Accurate Aerial Mapping, Digital Cartography & Laser Scanning Services",
+        "description": "MAPIUM provides precise aerial mapping, digital cartography, and laser scanning services. Explore any part of the planet quickly and accurately with cutting-edge technology and expert solutions."
+    },
     "Home": {
         "title": "Wszystko, czego potrzebujesz, aby szybko i dokładnie zbadać dowolną część planety",
-        "description": "",
         "heroPicture": "Map in grey color"
     },
     "Menu": {
-        "about": "about us",
-        "services": "services",
-        "toolkits": "toolkits",
-        "showreel": "showreel"
+        "about": "o nas",
+        "services": "Usługi",
+        "toolkits": "narzędzia",
+        "showreel": "prezentacja"
     },
     "AboutUs": {
         "title": "About us",
-        "aboutUsP1": "<mapium> mapium </mapium> provides services in aerial surveying, geodesy and cartography worldwide. The company's experience includes hundreds of projects covering tens of thousands sq. km in various regions of the world.",
+        "aboutUsP1": "<mapium> mapium </mapium> provides services in aerial surveying, geodesy and cartography worldwide. <br></br> The company's experience includes hundreds of projects covering tens of thousands sq. km in various regions of the world.",
         "aboutUsP2": "The combination of modern technologies of survey from air, space and on ground makes it possible to complete projects of any complexity in the shortest possible time and with high accuracy. <br></br> <mapium> mapium </mapium> has its own fixed wing and multicopter UAVs manufactured by <abrisAero> abris aero </abrisAero>, which are known for their high efficiency and reliability. The toolkit of <mapium> mapium </mapium> includes <sony> sony </sony> aerial cameras, <phaseone> phaseone </phaseone> industrial aerial cameras, <yellowscan> yellowscan </yellowscan> laser scanners, <novatel> novatel </novatel> onboard and ground <gnss> gnss </gnss> systems.",
         "aboutUsP3": "Our research teams consist of certified pilots, surveyors, photogrammetrists, cartographers, architects and lawyers. They are united by professionalism, vast experience, love for travel and the spirit of adventurousness."
     },

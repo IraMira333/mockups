@@ -104,21 +104,21 @@ const config: Config = {
                 "36px",
                 {
                     lineHeight: "43px",
-                    fontWeight: "500",
+                    fontWeight: "600",
                 },
             ],
             "6xl": [
                 "48px",
                 {
                     lineHeight: "54px",
-                    fontWeight: "500",
+                    fontWeight: "600",
                 },
             ],
             "7xl": [
                 "64px",
                 {
                     lineHeight: "72px",
-                    fontWeight: "500",
+                    fontWeight: "600",
                 },
             ],
         },

@@ -16,10 +16,10 @@ export const LaserScanning = () => {
         <div className="tab:flex tab:gap-4 tab:border-b tab:border-white-100 tab:pb-10 pc:pb-[60px]">
             <div className="tab:w-[49%] pc:w-[66%] pc:flex pc:gap-5">
                 <div className="tab:w-[93%] pc:w-[35%]">
-                    <h3 className="text-white-100 tab:text-5xl font-genos text-3xl mb-5 pc:mb-[102px]">
+                    <h3 className="text-white-100 font-semibold tab:text-5xl font-genos text-3xl mb-5 pc:mb-[102px]">
                         {t("laserScanningTitle")}
                     </h3>
-                    <p className="font-genos tab:text-xlS text-lgS mb-[10px]">
+                    <p className="font-genos font-semibold tab:text-xlS text-lgS mb-[10px]">
                         {t("laserScanningListTitle")}
                     </p>
                     <ul className=" list-disc pl-4 mb-4">

@@ -7,7 +7,7 @@ export const AboutUs = () => {
 
     return (
         <Section id="aboutus" className="text-center py-10 pc:py-[60px]">
-            <div className="text-white-100 flex justify-between tab:text-left font-genos text-xl tab:text-2xl uppercase h-9 border-b border-b-white-100 mb-10">
+            <div className="text-white-100 font-semibold flex justify-between tab:text-left font-genos text-xl tab:text-2xl uppercase h-9 border-b border-b-white-100 mb-10">
                 <p className="tab:w-[50%]">01</p>
                 <h2 className="tab:w-[50%]">{t("title")}</h2>
             </div>

@@ -22,10 +22,10 @@ export const AerialMapping = () => {
             <div className="tab:flex tab:gap-5">
                 <div className="tab:w-[49.4%] pc:w-[24%] tab:flex tab:flex-col tab:justify-between">
                     <div>
-                        <h3 className="text-white-100 tab:text-5xl font-genos text-3xl  mb-5">
+                        <h3 className="text-white-100 font-semibold tab:text-5xl font-genos text-3xl  mb-5">
                             {t("aerialmappingTitle")}
                         </h3>
-                        <p className="font-genos text-lgS tab:text-xlS mb-[10px]">
+                        <p className="font-genos font-semibold text-lgS tab:text-xlS mb-[10px]">
                             {t("aerialmappingListTitle")}
                         </p>
                         <ul className=" list-disc pl-4 mb-4">

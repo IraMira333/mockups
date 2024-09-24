@@ -8,7 +8,7 @@ export const DigitalCartography = () => {
         <div className="mb-9 tab:border-b tab:border-white-100 tab:pb-10 tab:mb-[60px] pc:pb-[60px]">
             <div className="tab:flex tab:gap-[100px] pc:gap-5">
                 <div className="tab:w-[37%] pc:w-[24%] tab:flex tab:flex-col tab:justify-between pc:justify-start">
-                    <h3 className="text-white-100 tab:text-5xl font-genos text-3xl mb-5 uppercase pc:mb-[102px]">
+                    <h3 className="text-white-100 font-semibold tab:text-5xl font-genos text-3xl mb-5 uppercase pc:mb-[102px]">
                         {t("digitalCartographyTitle")}
                     </h3>
                     <Image

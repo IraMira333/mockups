@@ -18,7 +18,7 @@ export default function LanguageSwitcher() {
     };
 
     return (
-        <ul className="flex gap-2 font-genos uppercase">
+        <ul className="hidden  gap-2 font-genos uppercase">
             {locales.map(curLocale => (
                 <li key={curLocale}>
                     <Link

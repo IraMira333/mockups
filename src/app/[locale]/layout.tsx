@@ -3,6 +3,7 @@ import "./globals.css";
 import { NextIntlClientProvider, useMessages } from "next-intl";
 import { Header } from "@/components/Header/Header";
 import { Footer } from "@/components/Footer/Footer";
+
 import { getTranslations } from "next-intl/server";
 
 const genos = localFont({
@@ -77,11 +78,22 @@ export default function RootLayout({
 }>) {
     const messages = useMessages();
     return (
-        <html lang={locale}>
+        <html
+            lang={locale}
+            className={`${dmSans.variable} ${genos.variable} antialiased`}
+        >
+            <head>
+                <link rel="icon" href="../favicon.ico" sizes="any" />
+                <meta
+                    name="image"
+                    property="og:image"
+                    content="/linkImage.png"
+                />
+                <meta name="twitter:image" content="/linkImage.png" />
+                <meta name="robots" content="index, follow" />
+            </head>
             <NextIntlClientProvider locale={locale} messages={messages}>
-                <body
-                    className={`${dmSans.variable} ${genos.variable} antialiased`}
-                >
+                <body>
                     <Header />
                     <main>{children}</main>
                     <Footer />

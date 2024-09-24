@@ -77,6 +77,7 @@ export default function RootLayout({
     params: { locale: string };
 }>) {
     const messages = useMessages();
+    console.log(new URL(`${process.env.NEXT_PUBLIC_BASE_URL}`));
     return (
         <html
             lang={locale}

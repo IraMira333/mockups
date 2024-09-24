@@ -8,9 +8,9 @@
         "heroPicture": "Map in grey color"
     },
     "Menu": {
-        "about": "o nas",
-        "services": "Usługi",
-        "toolkits": "narzędzia",
+        "about": "about us",
+        "services": "services",
+        "toolkits": "toolkits",
         "showreel": "showreel"
     },
     "AboutUs": {

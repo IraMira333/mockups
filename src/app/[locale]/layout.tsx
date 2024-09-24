@@ -36,7 +36,7 @@ const dmSans = localFont({
             style: "normal",
         },
         {
-            path: "../fonts/DMSans//DMSans-SemiBold.ttf",
+            path: "../fonts/DMSans/DMSans-SemiBold.ttf",
             weight: "600",
             style: "normal",
         },

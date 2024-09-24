@@ -15,7 +15,7 @@ export const Toolkits = () => {
             <div className="pc:flex pc:gap-5 pc:justify-center">
                 <WaveAnimation className="border border-white-40  px-2  pc:mb-5 tab:w-[538px] tab:h-[300px] pc:w-[41%]">
                     <div className="relative z-10">
-                        <h3 className="text-white-100 font-genos text-3xl uppercase mb-4 tab:text-5xl">
+                        <h3 className=" font-genos text-3xl uppercase mb-4 tab:text-5xl">
                             {t("beetleTitle")}
                         </h3>
                         <p>{t("beetleText")}</p>
@@ -30,7 +30,7 @@ export const Toolkits = () => {
                 </WaveAnimation>
                 <WaveAnimation className="border border-white-40  px-2  pc:mb-5 tab:w-[688px] tab:h-[327px] pc:h-[300px] pc:w-[57%]">
                     <div className="relative z-10">
-                        <h3 className="text-white-100 font-genos text-3xl uppercase mb-4 tab:text-5xl">
+                        <h3 className="font-genos text-3xl uppercase mb-4 tab:text-5xl">
                             {t("flirtTitle")}
                         </h3>
 
@@ -52,7 +52,7 @@ export const Toolkits = () => {
             <div className="pc:flex pc:gap-5 pc:justify-center">
                 <WaveAnimation className="border border-white-40 px-0 pc:mb-0 tab:w-[650px] tab:h-[300px] tab:flex-row-reverse tab:gap-10 pc:w-[49%]">
                     <div className="px-2 relative z-10">
-                        <h3 className="text-white-100 font-genos text-3xl uppercase mb-4 tab:text-5xl">
+                        <h3 className="font-genos text-3xl uppercase mb-4 tab:text-5xl">
                             {t("yellowScanTitle")}
                         </h3>
                         <p className="mb-4">{t("yellowScanText")}</p>
@@ -67,7 +67,7 @@ export const Toolkits = () => {
                 </WaveAnimation>
                 <WaveAnimation className="border border-white-40  px-2  mb-0 tab:w-[647px] tab:h-[300px] tab:flex-row-reverse tab:gap-10 pc:w-[49%]">
                     <div className="relative z-10">
-                        <h3 className="text-white-100 font-genos text-3xl uppercase mb-4 tab:text-5xl">
+                        <h3 className=" font-genos text-3xl uppercase mb-4 tab:text-5xl">
                             {t("sonyTitle")}
                         </h3>
                         <p>{t("sonyText")}</p>

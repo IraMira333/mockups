@@ -26,6 +26,10 @@ export const WaveAnimation = ({
             onMouseEnter={() => setHovered(true)}
             onMouseLeave={() => setHovered(false)}
             onMouseMove={handleMouseMove}
+            style={{
+                color: hovered ? "#0D3747" : "inherit",
+                transition: "color 0.3s ease",
+            }}
         >
             {hovered && (
                 <motion.div

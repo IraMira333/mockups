@@ -21,8 +21,8 @@ export const Footer = () => {
                     <div className="w-6 h-6 flex justify-center items-center">
                         <IconMail className="" />
                     </div>
-                    <a href="mailto:info@mapium.com.pl" className="">
-                        info@mapium.com.pl
+                    <a href="mailto:info@mapium.aero" className="">
+                        info@mapium.aero
                     </a>
                 </li>
                 <li className="flex gap-3 items-center justify-left max-w-[270px] tab:w-[34%] hover:text-accent active:text-accent transition-all duration-[250ms] ease-[cubic-bezier(0.4,0,0.2,1)]">

@@ -5,7 +5,8 @@
     },
     "Home": {
         "title": "All you need to explore any part of the planet promptly and with high accuracy",
-        "heroPicture": "Map in grey color"
+        "heroPicture": "Map in grey color",
+        "titleService": "We’re working to make our website better. \nComing soon..."
     },
     "Menu": {
         "about": "about us",

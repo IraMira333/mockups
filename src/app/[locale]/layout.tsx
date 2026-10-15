@@ -1,8 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import { NextIntlClientProvider, useMessages } from "next-intl";
-import { Header } from "@/components/Header/Header";
-import { Footer } from "@/components/Footer/Footer";
 
 import { getTranslations } from "next-intl/server";
 
@@ -94,9 +92,9 @@ export default function RootLayout({
             </head>
             <NextIntlClientProvider locale={locale} messages={messages}>
                 <body>
-                    <Header />
+                    {/* <Header /> */}
                     <main>{children}</main>
-                    <Footer />
+                    {/* <Footer /> */}
                 </body>
             </NextIntlClientProvider>
         </html>
